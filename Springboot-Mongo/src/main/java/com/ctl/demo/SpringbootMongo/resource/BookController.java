@@ -54,5 +54,10 @@ public class BookController {
 		return "deleted book "+id;
 		
 	}
-
+	
+	@GetMapping("/getStringdata")
+	public String getStringData() {
+		return "Returning the String";
+		
+	}
 }
